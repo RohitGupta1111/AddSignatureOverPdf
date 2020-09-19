@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".EditorActivity">
+
+    <item  android:id="@+id/add_delete_sign"
+        android:icon="@drawable/add_white_24dp"
+        android:title="Add Delete Sign"
+        app:showAsAction="always"/>
+    <item  android:id="@+id/add_sign_file"
+        android:icon="@drawable/pen_icon_24"
+        android:title="Add Sign File"
+        app:showAsAction="always"
+        />
+    <item  android:id="@+id/edit_done"
+        android:title="Edit done"
+        android:icon="@drawable/done_white_24dp"
+        app:showAsAction="always"/>
+    <item  android:id="@+id/edit_instruction"
+        android:title="Instructions"
+        app:showAsAction="withText"/>
+</menu>
